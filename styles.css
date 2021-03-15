@@ -1,0 +1,53 @@
+html{
+	background-color: #6e7c7c;
+	
+}
+body{
+	font-family: verdana;
+}
+div{
+	background-color: #9fd8df;
+	width: 100%;
+}
+img{
+	height: 200px;
+	width: 1000px;
+}
+
+h1{
+	color: red;
+}
+
+table {
+   width: 70%;
+   border: 1px solid #000;
+}
+th, td {
+  
+   border: 1px solid #000;
+   border-collapse: collapse;
+   
+}
+
+audio{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #cdd;
+	margin-bottom: 20px;
+}
+button{
+	margin-left: 15px;
+	margin-top: 30px;
+	padding: 10px 30px 10px 30px;
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+footer{
+	background-color: grey;
+	width: 1000px;
+	height: 80px;
+}
