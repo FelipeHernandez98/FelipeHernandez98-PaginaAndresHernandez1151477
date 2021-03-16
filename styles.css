@@ -1,17 +1,15 @@
 html{
-	background-color: #6e7c7c;
+	background-color: #797a7e;
 	
 }
 body{
 	font-family: verdana;
 }
-div{
-	background-color: #9fd8df;
-	width: 100%;
-}
+
 img{
 	height: 200px;
 	width: 1000px;
+	border-radius: 5px;
 }
 
 h1{
@@ -35,19 +33,62 @@ audio{
 	background-color: #cdd;
 	margin-bottom: 20px;
 }
+
 button{
 	margin-left: 15px;
 	margin-top: 30px;
 	padding: 10px 30px 10px 30px;
+	color: white;
 }
+
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 
 }
 
 footer{
-	background-color: grey;
+	background-color: #433d3c;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
 	width: 1000px;
 	height: 80px;
+	margin-top: 10px;
+}
+
+.home{
+	margin: 10px 50px 10px 200px;
+	width: 1000px;
+	padding: 10px 20px 10px 20px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #d8d3cd;
+}
+
+.home-contacto{
+	margin: 200px 200px 10px 470px;
+	width: 400px;
+	height: 300px;
+	padding: 10px 20px 10px 20px;
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #d8d3cd;
+}
+
+
+button{
+	background-color: #797a7e;
+	border-radius: 5px;
+	border-bottom: 6px solid #282929;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #282929;
+	border-bottom: 6px solid #797a7e;
+}
+
+input{
+	margin-left: 25px;
 }

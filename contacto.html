@@ -2,32 +2,36 @@
 <html>
 <head>
 	<title>Formularios web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
+    <div class="home-contacto">
+        <div class="formulario">
+            <h1>Contactanos</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
 
-<form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="apikey" value="7497adcb-d55d-4b87-84eb-ff78e65579b1">
 
-    <input type="hidden" name="apikey" value="7497adcb-d55d-4b87-84eb-ff78e65579b1">
+        	<label for="usuario">Ingrese su Nombre:</label>
+            <input type="text" name="name" required placeholder="Ingrese su nomnbre">
 
-	<label for="usuario">Ingrese su sNombre</label>
-    <input type="text" name="name" required>
+            <br>
 
-    <br>
+            <label for="email">Ingrese su email:</label>
+            <input type="email" name="email" required placeholder="Ingrese e-mail">
 
-    <label for="email">Ingrese su email</label>
-    <input type="email" name="email" required>
+            <br>
 
-    <br>
+            <label for="mensaje">Ingrese su mensaje:</label>
+            <textarea name="message" required placeholder="Escriba su mensaje" ></textarea>
+            
+            <br>
+            <button><a href="index.html">Volver</a></button>
+            <button type="submit">Enviar</button>
 
-    <label for="mensaje">Ingrese su mensaje</label>
-    <textarea name="message" required></textarea>
-    
-    <br>
-
-    <button type="submit">Enviar</button>
-
-</form>
-
+            </form>
+        </div>
+    </div>
 </body>
 </html>
